@@ -5,6 +5,6 @@
          </p>
       </div> 
       <div class="p-3 mb-3">
-    <img class="img-thumbnail" src="/img/s1200.jpeg">
+    <img class="img-thumbnail" src="/img/original.jpg">
     </div>
     </aside>

@@ -7,13 +7,16 @@
    ?>
 </head>
 <body>
-<?php  require 'blocks/header.php'; ?>
+
+
+
+ <?php  require 'blocks/header.php'; ?>
 
   <main class="container mt-5">
     <div class="row">
      <div class="col-md-8 mb-3">
      Основная часть сайта
-     </div>
+     </div> 
 
 
 
@@ -28,8 +31,8 @@
 
 
      
-     <?php require 'blocks/footer.php'; ?> 
+     <?php require 'blocks/footer.php'; ?>
 
-     
+
     </body>
 </html>  

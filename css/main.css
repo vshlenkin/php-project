@@ -4,3 +4,19 @@
     line-height: 60px;
     background-color: #f5f5f5;
 }
+
+/* button { 
+	width: 65px;
+	height: 65px;
+	background-color: #4f65be;
+	color: white;
+	font-size: 18px;
+	font-weight: 500;
+	}*/
+
+
+#errorBlock {
+
+    display: none;
+     
+}
