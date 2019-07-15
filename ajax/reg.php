@@ -5,14 +5,10 @@ $login = trim(filter_var($_POST['login'], FILTER_SANITIZE_STRING));
 $pass = trim(filter_var($_POST['pass'], FILTER_SANITIZE_STRING));
 
 $error = '';
-if(strlen($username) <= 3) 
-   $error = 'Введите имя';
-if(strlen($email) <= 3)
-   $error = 'Введите email';
-if(strlen($login) <= 3)
-    $error = 'Введите логин';
-if(strlen($pass) <= 3)
-    $error = 'Введите пароль';
+if(strlen($username) <= 3) $error = 'Введите имя';
+else if(strlen($email) <= 3) $error = 'Введите email';
+else if(strlen($login) <= 3) $error = 'Введите логин';
+else if(strlen($pass) <= 3) $error = 'Введите пароль';
 
 if($error != '') {
   echo $error;

@@ -26,7 +26,7 @@ $query = $pdo->prepare($sql);
 $query->execute(['login' => $login, 'pass' => $pass]);
 
 $user = $query->fetch(PDO::FETCH_OBJ);
-if($user->id == 0)
+if($user->id == 0) 
    echo 'Такого пользователя не существует';
 
    else { 
